@@ -8,8 +8,10 @@
     <body>
         @include('layouts.menu')
 
-        @yield('content')
-        
+        @yield('content-jumbo')
+
+        @yield('content-data')
+
         @include('layouts.footer')
         <script src="{{ asset('js/app.js') }}" charset="utf-8"></script>
     </body>

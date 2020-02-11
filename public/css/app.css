@@ -16961,6 +16961,55 @@ body a {
   margin: 0 auto;
 }
 
+.boolean__data {
+  padding: 40px 0;
+}
+
+.bg_blue {
+  background: #1b3c59;
+}
+
+.boolean__data__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.boolean__data__child {
+  flex-basis: 280px;
+  max-width: 280px;
+  text-align: center;
+}
+
+.boolean__data__child h3 {
+  color: #fff;
+  font-size: 49.5px;
+  font-weight: 400;
+}
+
+.boolean__data__child h3 small {
+  color: #fff;
+}
+
+.boolean__data__child p {
+  color: #fff;
+  font-size: 19px;
+}
+
+.max-title {
+  font-size: 45px;
+  line-height: 1.1;
+  font-weight: 300;
+}
+
+.paragraph {
+  font-size: 19px;
+  font-weight: 300;
+}
+
+small {
+  font-size: 80%;
+}
+
 .bg_blue {
   background: #1b3c59;
 }
