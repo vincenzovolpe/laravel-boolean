@@ -1,5 +1,5 @@
 <footer class="bg_blue">
-    
+
     <div class="container">
         <div class="footer__head">
             <div class="footer__head__left">
@@ -15,7 +15,7 @@
                     <li><a href="https://www.boolean.careers/lezione-gratuita">Lezione gratuita</a></li>
 
 
-                    <li><a href="https://www.boolean.careers/faq">Domande frequenti</a></li>
+                    <li><a href="{{route('pagina-faq')}}">Domande frequenti</a></li>
                     <li><a href="https://www.boolean.careers/aziende">Per le aziende</a></li>
                     <li><a href="https://www.boolean.careers/privacy-policy">Privacy policy</a></li>
                     <li><a href="https://www.boolean.careers/work-with-us">Lavora con noi</a></li>

@@ -16843,6 +16843,10 @@ body a {
   color: #1b3c59;
 }
 
+.attivo {
+  display: block;
+}
+
 #navbarContainer {
   position: -webkit-sticky;
   position: sticky;
@@ -17008,6 +17012,71 @@ body a {
 
 small {
   font-size: 80%;
+}
+
+.boolean__faq__jumbo {
+  padding: 50px 0;
+  text-align: left;
+}
+
+.boolean__faq__jumbo h1 {
+  font-weight: 400;
+  font-size: 44px;
+  padding: 0 80px;
+}
+
+.boolean__faq__jumbo p {
+  padding: 0 80px;
+  font-size: 18px;
+}
+
+.boolean__faq__jumbo p a {
+  color: #1b3c59;
+  text-decoration: underline;
+}
+
+.boolean__faq__body__cnt > div {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.boolean__faq__body__cnt > div h2 {
+  padding: 0 80px;
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.bg_light_blue {
+  background: #e8ebf1;
+}
+
+.boolean__faq__body__question {
+  margin: 40px 0;
+  padding: 0 80px;
+}
+
+.boolean__faq__body__question h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.boolean__faq__body__question h3 i {
+  float: right;
+  cursor: pointer;
+}
+
+.boolean__faq__body__question p {
+  display: none;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.boolean__faq__body__cnt > div:last-child div h3,
+.boolean__faq__body__cnt > div:last-child div h3 i,
+.boolean__faq__body__cnt > div:last-child div p,
+.boolean__faq__body__cnt > div:last-child h2 {
+  color: #fff;
 }
 
 .bg_blue {

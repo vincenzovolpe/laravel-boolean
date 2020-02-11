@@ -8,6 +8,8 @@
     <body>
         @include('layouts.menu')
 
+        @yield('content-faq')
+
         @yield('content-jumbo')
 
         @yield('content-data')
