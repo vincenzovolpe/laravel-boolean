@@ -28,7 +28,7 @@
             ],
             [
                 'q'=> 'Quanto costa il corso?',
-                'a'=> "Trovi tutte le informazioni sul prezzo nell' apposita sezione della pagina corso"
+                'a'=> "Trovi tutte le informazioni sul prezzo nell'".'<a href="https://www.boolean.careers/corso/full-time#prezzo">apposita sezione della pagina corso</a>'
             ]
         ],
         'faqs_dx' => [
