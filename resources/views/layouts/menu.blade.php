@@ -9,21 +9,21 @@
     </button>
     <div class="boolean__navbar__items collapse navbar-collapse">
         <ul class="navbar-nav">
-            <li class="boolean__navbar__item nav-item active">
+            <li class="boolean__navbar__item nav-item {{Route::currentRouteName() == 'homepage' ? 'active' : ""}}">
                 <a class="nav-link" href="{{route('homepage')}}">Home</a>
             </li>
-            <li class="boolean__navbar__item nav-item">
+            <li class="boolean__navbar__item nav-item {{Route::currentRouteName() == 'corso' ? 'active' : ""}}">
                 <a class="nav-link" href="https://www.boolean.careers/corso/full-time">Corso</a>
             </li>
 
-            <li class="boolean__navbar__item nav-item">
+            <li class="boolean__navbar__item nav-item {{Route::currentRouteName() == 'carriere' ? 'active' : ""}}">
                 <a class="nav-link" href="https://www.boolean.careers/carriere">Dopo il corso</a>
             </li>
 
-            <li class="boolean__navbar__item nav-item">
+            <li class="boolean__navbar__item nav-item {{Route::currentRouteName() == 'lezione' ? 'active' : ""}}">
                 <a class="nav-link" href="https://www.boolean.careers/lezione-gratuita">Lezione Gratuita</a>
             </li>
-            <li class="boolean__navbar__cta nav-item">
+            <li class="boolean__navbar__cta nav-item {{Route::currentRouteName() == 'iscriviti' ? 'active' : ""}}">
                 <a track="Click-IscrizioneForm" class="nav-link" href="https://www.boolean.careers/iscriviti">Candidati ora</a>
             </li>
 

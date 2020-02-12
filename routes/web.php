@@ -17,5 +17,7 @@ Route::get('/', function () {
 
 
 Route::get('/faq', function () {
-    return view('faq');
+    $data = ['lista_faq_sx' => config('faq.faqs_sx'),
+             'lista_faq_dx' => config('faq.faqs_dx')];
+    return view('faq', $data);
 })->name('pagina-faq');

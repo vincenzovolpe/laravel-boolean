@@ -16847,6 +16847,10 @@ body a {
   display: block;
 }
 
+.no-border {
+  border: none;
+}
+
 #navbarContainer {
   position: -webkit-sticky;
   position: sticky;
