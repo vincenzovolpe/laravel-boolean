@@ -12,19 +12,19 @@
             <li class="boolean__navbar__item nav-item {{Route::currentRouteName() == 'homepage' ? 'active' : ""}}">
                 <a class="nav-link" href="{{route('homepage')}}">Home</a>
             </li>
-            <li class="boolean__navbar__item nav-item {{Route::currentRouteName() == 'corso' ? 'active' : ""}}">
-                <a class="nav-link" href="https://www.boolean.careers/corso/full-time">Corso</a>
+            <li class="boolean__navbar__item nav-item {{Route::currentRouteName() == 'corsoboolean' ? 'active' : ""}}">
+                <a class="nav-link" href="{{route('corsoboolean')}}">Corso</a>
             </li>
 
-            <li class="boolean__navbar__item nav-item {{Route::currentRouteName() == 'carriere' ? 'active' : ""}}">
-                <a class="nav-link" href="https://www.boolean.careers/carriere">Dopo il corso</a>
+            <li class="boolean__navbar__item nav-item {{Route::currentRouteName() == 'carriereboolean' ? 'active' : ""}}">
+                <a class="nav-link" href="{{route('carriereboolean')}}">Dopo il corso</a>
             </li>
 
-            <li class="boolean__navbar__item nav-item {{Route::currentRouteName() == 'lezione' ? 'active' : ""}}">
-                <a class="nav-link" href="https://www.boolean.careers/lezione-gratuita">Lezione Gratuita</a>
+            <li class="boolean__navbar__item nav-item {{Route::currentRouteName() == 'lezioneboolean' ? 'active' : ""}}">
+                <a class="nav-link" href="{{route('lezioneboolean')}}">Lezione Gratuita</a>
             </li>
-            <li class="boolean__navbar__cta nav-item {{Route::currentRouteName() == 'iscriviti' ? 'active' : ""}}">
-                <a track="Click-IscrizioneForm" class="nav-link" href="https://www.boolean.careers/iscriviti">Candidati ora</a>
+            <li class="boolean__navbar__cta nav-item {{Route::currentRouteName() == 'iscrizioneboolean' ? 'active' : ""}}">
+                <a track="Click-IscrizioneForm" class="nav-link" href="{{route('iscrizioneboolean')}}">Candidati ora</a>
             </li>
 
         </ul>

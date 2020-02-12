@@ -15,8 +15,24 @@ Route::get('/', function () {
     return view('home');
 })->name('homepage');
 
+Route::get('corso', function () {
+    return view('corso');
+})->name('corsoboolean');
 
-Route::get('/faq', function () {
+Route::get('carriere', function () {
+    return view('carriere');
+})->name('carriereboolean');
+
+Route::get('lezione', function () {
+    return view('lezione');
+})->name('lezioneboolean');
+
+Route::get('iscrizione', function () {
+    return view('iscrizione');
+})->name('iscrizioneboolean');
+
+
+Route::get('faq', function () {
     $data = ['lista_faq_sx' => config('faq.faqs_sx'),
              'lista_faq_dx' => config('faq.faqs_dx')];
     return view('faq', $data);

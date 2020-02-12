@@ -16,9 +16,9 @@
 
 
                     <li><a class="" href="{{route('pagina-faq')}}">Domande frequenti</a></li>
-                    <li><a class="no-border" href="https://www.boolean.careers/aziende">Per le aziende</a></li>
-                    <li><a class="no-border" href="https://www.boolean.careers/privacy-policy">Privacy policy</a></li>
-                    <li><a class="no-border" href="https://www.boolean.careers/work-with-us">Lavora con noi</a></li>
+                    <li><a href="https://www.boolean.careers/aziende">Per le aziende</a></li>
+                    <li><a href="https://www.boolean.careers/privacy-policy">Privacy policy</a></li>
+                    <li><a href="https://www.boolean.careers/work-with-us">Lavora con noi</a></li>
                 </ul>
             </div>
         </div>
